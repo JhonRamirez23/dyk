@@ -26,41 +26,29 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme page: Publicitarios DyK
-  ======================================================= -->
 </head>
 
 <body>
 
-  <!--==========================
-    Header
-  ============================-->
+  <!-- Header start -->
   <header id="header">
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
         <h1><a href="index.html" class="scrollto"><img src="img/logo.png" alt="DyK"></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!--<h1><a href="#intro" class="scrollto"><img src="img/logo.png" alt="DyK"></a></h1>-->
-		<!--<h1><a href="#intro" class="scrollto">DyK <h6><i>Publicitarios</i></h6></a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="index.html">Volver-inicio</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
     </div>
-  </header><!-- #header -->
+  </header>
 
-
-    <!--==========================
-      Section Portafolio
-    ============================-->
-    <section id="portfolio" class="section-bg3">
-      <div class="container text-center">
+  <!-- Portafolio -->
+  <section id="portfolio" class="section-bg3">
+    <div class="container text-center">
 
     <section id="portfolio"  class="section-bg3" >
       <div class="container">
@@ -68,16 +56,17 @@
         <header class="section-header">
           <h3 class="container text-center"><font color="ffffff">Campañas</font></h3>
         </header>
-        <!--============================
-        Catálogo Articulos Publicitarios
-        ===============================-->
+        
+        <!-- Catálogo Articulos Publicitarios -->
         <div class="row portfolio-container">
 
+          <!-- Catálogo Articulos Publicitarios -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/ca.jpg" class="img-fluid" alt="">
-				          <a href="port/CATALOGO_PROMOCIONALES_2023_DYK.pdf" target="_blank" rel="noopener noreferrer" class="link-details" title="descargar Campaña"><i class="ion-ios-download-outline"></i></a>
+				          <a href="port/CATALOGO_PROMOCIONALES_2023_DYK.pdf" target="_blank" rel="noopener noreferrer" class="link-details" title="descargar Campaña"><i class="ion-ios-download-outline"></i>
+                  </a>
               </figure>
 
               <div class="portfolio-info">
@@ -86,9 +75,8 @@
               </div>
             </div>
           </div>
-          <!--============================
-          Día del Padre
-          ===============================-->
+          
+          <!-- Día del padre -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
@@ -102,9 +90,8 @@
               </div>
             </div>
           </div>
-          <!--============================
-          Día de la Madre
-          ===============================-->
+          
+          <!-- Día de la Madre -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
@@ -118,9 +105,8 @@
               </div>
             </div>
           </div>
-          <!--============================
-          Amor y Amistad
-          ===============================-->
+
+          <!-- Amor y Amistad -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
@@ -134,9 +120,8 @@
               </div>
             </div>
           </div>
-          <!--============================
-          Halloween
-          ===============================-->
+          
+          <!-- Halloween -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
@@ -150,9 +135,8 @@
               </div>
             </div>
           </div>
-          <!--============================
-          Anchetas
-          ===============================-->
+          
+          <!-- Anchetas -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
@@ -167,32 +151,28 @@
             </div>
           </div>
 
-<!-- del 9-12 -->
-
         </div>
 
       </div>
 	 </div>
- </section><!-- #portafolio -->
+  </section>
 
 
-  <!--==========================
-    Footer
-  ============================-->
+  <!-- Footer -->
   <footer id="footer">
 
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
-        var options = {
-            whatsapp: "+573146955666", // WhatsApp number
-            call_to_action: "Escríbenos", // Call to action
-            position: "left", // Position may be 'right' or 'left'
+        const options = {
+            whatsapp: "+573146955666",
+            call_to_action: "Escríbenos",
+            position: "left",
         };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        let proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        let s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        let x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
 <!-- /WhatsHelp.io widget -->
